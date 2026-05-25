@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    margin-top: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:  #f5f3f3;
+    color: #333;
+}
+
+header{
+
+    background: rgb(0, 0, 0);
+    padding: 15px 30px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+    box-shadow: 0 0 5px rgb(196, 196, 196);
+}
+.logo{
+    width: 400px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateX(110px);
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+nav{
+    display: flex;
+
+    gap: 20px;
+}
+
+nav a{
+
+    color: rgb(206, 199, 103);
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+
+    margin-left: 25px;
+}
+
+nav a:hover{
+
+    color: #ffffff;
+}
+
+.hotbar{
+    display: inline-block;
+    gap: 100px;
+}
+h2{
+    text-align: center;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    color: white;
+    margin-left: 50px;
+}
+
+.card{
+    border-radius:10px ;
+    box-shadow: 1px 2px 3px lch(83.91% 71.64 102.94);
+    background-color: rgb(0, 0, 0);
+    padding: 15px;
+    width: 250px;
+    transition: transform 0.5s ease;
+}
+.card:hover{
+    transform: scale(1.05);
+}
+.acoes a{
+    
+    border-radius: 10px;
+    padding: 5px;
+    display: inline-block;
+    box-shadow: 0px 0px 10px black;
+}
+.editar{
+    background-color: #00a651;
+}
+.excluir{
+    background-color: red;
+}
+form{
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 15px;
+}
+
+input{
+    padding: 12px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 5px;
+}
+footer p{
+    color:  rgb(206, 199, 103);
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+    box-shadow: 1px 5px 3px rgb(196, 196, 196);
+    
+
+}
+.vazio{
+    margin-left: 50px;
+}
